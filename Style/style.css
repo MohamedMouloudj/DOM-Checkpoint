@@ -1,0 +1,47 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.product{
+    background-color: rgb(255, 211, 145);
+    border:1px solid rgb(0, 0, 0);
+    margin-bottom: 20px;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+span{
+    color: white;
+    background-color: rgb(237, 155, 2);
+    border:1px solid rgb(237, 155, 2);
+    border-radius: 4px;
+
+}
+
+button{
+    border:none;
+    border-radius: 5px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.line-1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.line-2{
+    margin-bottom: 5px;
+}
+
+.line-1 button{
+    background-color: transparent;
+}
+
+.line-2 button{
+    background-color: rgba(255, 166, 0, 0.678);
+}
